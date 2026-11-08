@@ -5,7 +5,17 @@
     <title>Admin</title>
 </head>
 <body>
-    <p>welcome Admin, here you can add commands. Acces to them and seen them and see a particular user!</p><br>
-    <a href="./../server/formulari_commands.php"><button><p>add commands</p></button></a>
+    <p>Welcome admin, here you can add commands. Acces to them and create a command, list the commands or see the commands of an user!</p><br>
+    <select onchange="location = this.value;">
+        <option value="">Choose the Operation</option>
+        <option value="./../client/formulari_commands.html">add a command</option>
+        <option value="./../server/commands.php">list all commands</option>
+        <option value="./../server/show_one_command.php">list one command</option>
+    </select>
+    <br>
+    <a href="./index.html">
+			<button>Go back to the main page.</button>
+		</a>
+
 </body>
 </html>

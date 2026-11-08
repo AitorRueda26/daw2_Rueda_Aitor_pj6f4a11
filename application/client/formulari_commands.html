@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../client/form.css">
 </head>
 <body>
-    <form id="formComanda" method="post" action="../server/formulari_commands.php">
+    <form id="formComanda" method="post" action="../server/form_commands.php">
         <h1>Form to request products</h1>
 
         <label for="codi">ID of the command</label>
@@ -27,18 +27,21 @@
 
         <label>Products</label><br>
         <input type="checkbox" class="check-prod" data-index="0"> Red velvet - 10,00 €
-        <input type="number" name="quantitat0" min="0" value="0" disabled><br>
+        <input type="number" name="quantitat0" min="0" value="0"><br>
         <input type="checkbox" class="check-prod" data-index="1"> Cheesecake - 15,50 €
-        <input type="number" name="quantitat1" min="0" value="0" disabled><br>
+        <input type="number" name="quantitat1" min="0" value="0"><br>
         <input type="checkbox" class="check-prod" data-index="2"> chocolate cake - 15,75 €
-        <input type="number" name="quantitat2" min="0" value="0" disabled><br>
+        <input type="number" name="quantitat2" min="0" value="0"><br>
         <input type="checkbox" class="check-prod" data-index="3"> lemon cake - 8,99 €
-        <input type="number" name="quantitat3" min="0" value="0" disabled><br><br>
+        <input type="number" name="quantitat3" min="0" value="0"><br><br>
+        
 
+        
         <button type="submit">Enviar comanda</button>
-        <a href="./../client/interface_admin.html"><button>Go back</button></a>
     </form>
 
+    <br>
+        <a href="./../client/Interface_admin.html"><button>Go back</button></a>
     <script>
         document.querySelectorAll('.check-prod').forEach(function (check) {
             check.addEventListener('change', function () {

@@ -1,36 +1,24 @@
 [
     {
-        "codi": "4",
-        "nom": "Aitor Frederic Rueda Ulloa",
-        "adreca": "Glories",
-        "email": "448789.clot@fje.edu",
-        "telefon": "242654464345",
+        "codi": "1",
+        "nom": "Aitor Rueda",
+        "adreca": "Barcelona",
+        "email": "aitorueda3@gmail.com",
+        "telefon": "111222333",
         "productes": [
             {
-                "producte": "Producte 1",
-                "quantitat": 2,
-                "import": 20
-            }
-        ],
-        "subtotal": 20,
-        "iva": 0,
-        "total": 24.2
-    },
-    {
-        "codi": "4",
-        "nom": "Aitor Frederic Rueda Ulloa",
-        "adreca": "Glories",
-        "email": "448789.clot@fje.edu",
-        "telefon": "242654464345",
-        "productes": [
+                "producte": "Red velvet",
+                "quantitat": 1,
+                "import": 10
+            },
             {
-                "producte": "Producte 1",
-                "quantitat": 2,
-                "import": 20
+                "producte": "Cheesecake",
+                "quantitat": 1,
+                "import": 15.5
             }
         ],
-        "subtotal": 20,
-        "iva": 0,
-        "total": 24.2
+        "subtotal": 25.5,
+        "iva": 5.36,
+        "total": 30.86
     }
 ]
